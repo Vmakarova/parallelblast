@@ -15,7 +15,3 @@ For run this use Python2.7. Use --help for getting more info
 Usage: prog --input_file QUERY_FASTA --database_file FASTA_DATABASE --omcl_file OrthoMCL_Groups [more_options]")
 Example of running: C:\Python27\python.exe parallelblast.py -i GNAT.fasta  -d myblastdb -o groups_OrthoMCL-5.txt -j4 -b blast-2.2.31+\bin\blastp.exe
 One else example: parallelblast -i octotest.fas -d omcl5 -j 4
-
-##work data
-parallelblastwithcheck.py - переписанная версия c относительно правильным match и подсчетом расстояния между ответом моей программки и оригинальной tsv таблицей(имя таблицы нужно вручную менять в коде, если используете сравнение с другим организмом)
-wrong_dist_results - результат работы программы для 926 белков с расстоянием больше 1. 
