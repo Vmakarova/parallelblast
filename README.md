@@ -4,6 +4,9 @@ This is a python program for parallel run of ncbi-blast and assign your proteins
 Parallel blastp + OrthoMCL 
 Author: Makarova Valentina, makarovavs07@gmail.com, 2015
 Use: http://www.ruffus.org.uk/examples/bioinformatics/
+     blastp Protein-Protein BLAST 2.2.30+  http://blast.ncbi.nlm.nih.gov/
+     algorithm from OrthoMCL's service Assign your proteins to OrthoMCL Groups 
+     http://www.orthomcl.org/orthomcl/proteomeUpload.do
 In: set of proteins in fasta-file
 Out: TSV-table, orthologGroups
 
